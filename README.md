@@ -62,3 +62,23 @@ A prototype was created to demonstrate the funtionality of the control system. T
 By focusing on the detection of Nitrogen (N), Phosphorus (P), and Potassium (K) deficiencies in lettuce plants, the system aims to ensure optimal crop health while minimizing resource usage. 
 
 This approach combines MobileNetV2, a lightweight model suitable for edge devices, enabling the model to perform efficiently in real-world agricultural environments.
+
+## Software Setup
+
+Clone this repo
+
+```
+git clone https://github.com/IlhanHashimEng/AgriVision.
+```
+
+Move to src folder
+
+```
+cd src
+```
+
+Run the main python file
+
+```
+python main.py
+```
