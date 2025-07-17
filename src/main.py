@@ -20,8 +20,7 @@ import cohere
 
 
 # Setup for Cohere
-co = cohere.Client("OJw8N3ssYQpQi2FS2mmZXSVDeJiP06IhvkAVkfAU")
-
+co = cohere.Client("Key Here")
 
 
 # Wise-Paas Datahub Packages
@@ -30,7 +29,7 @@ import wisepaasdatahubedgesdk.Common.Constants as constant
 from wisepaasdatahubedgesdk.Model.Edge import EdgeAgentOptions, DCCSOptions, EdgeData, EdgeTag
 
 API_KEY = os.getenv("OPENWEATHER_API_KEY", "792ca464e033a3d0e5e009204cd23a51")
-WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/forecast"
+WEATHER_API_URL = "Key Here"
 LOCATION = "Nibong Tebal"
 LOG_FILE = "system.log"
 MAX_RETRIES = 5
